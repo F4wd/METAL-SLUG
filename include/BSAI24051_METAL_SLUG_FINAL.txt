@@ -1,0 +1,16 @@
+#include "BSAI24051_BIGAIRSHIP.h"
+#include "BSAI24051_BULLET.h"
+#include "BSAI24051_ENEMY.h"
+#include "BSAI24051_ENEMYBULLET.h"
+#include "BSAI24051_GAME.h"
+#include "BSAI24051_HELICOPTER.h"
+#include "BSAI24051_KNIFETHROWER.h"
+#include "BSAI24051_PACK.h"
+#include "BSAI24051_PLAYER.h"
+using namespace std;
+int main()
+{
+	Game game;
+	game.run();
+	return 0;
+}
